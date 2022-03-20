@@ -18,15 +18,27 @@
     background-color: white;
     display: inline-block; 
     vertical-align: top; 
-    text-align: center;
+    /* text-align: center; */
     height: 150px; 
     line-height: 30px;
 }
 .title{
     font-weight: bolder; 
     font-size: 20px;
+    text-align: center;
 }
-@media screen and (max-width:600px){
-    .head{font-size: 24px;}
+.subtitle{
+    position: relative;left:135px;
+}
+@media (max-width:1200px){
+    .head{font-size: 25px;}
+    .title{font-size: 17px;}
     .content{width:100%; text-align: center;}
+    .subtitle{position: relative;left:0px;}
+}
+@media (max-width:500px){
+    .head{font-size: 20px;}
+    .title{font-size: 13px;}
+    .content{width:100%; text-align: center;}
+    .subtitle{position: relative;left:0px;}
 }
