@@ -1,36 +1,39 @@
 var contestArr = [];
-var athleteArr = [];
 var i = 0;
-var j = 0;
+var contest = document.getElementById("random");
+var athlete = document.getElementById("input"); 
 
-document.addEventListener('keydown', getRandomChar);
-function getRandomChar()    //打字機
-{
-    var contest = document.getElementById("random"); 
+function getRandomChar()    //隨機產生字母
+{   
     var r = Math.floor(Math.random() * 26);
     var str = String.fromCharCode(65 + r);
-    contest.innerText += str;
-    
+    contest.innerText = str + contest.innerText;    //打字機
     contestArr[i] = str;
-    console.log(i, contestArr[i]);
     i++;
     
+    return str;
 }
+
+for(var k = 0; k < 3; k++)  //開始時，打字機產生三個隨機字母
+    getRandomChar();
+
 
 document.addEventListener('keydown', logkey);
-function logkey()   //使用者
+function logkey()   
 {
-    
     var e = window.event;
     var str = String.fromCharCode(e.keyCode);
-    var header = document.getElementById("input"); 
-    header.innerText += str; 
-    
-    athleteArr[j] = str;
-    console.log(j, athleteArr[j]);
-    j++;
-}
+    athlete.innerText += str;       //使用者
 
-// while (athleteArr[i] === contestArr[100-i])
-//     contestArr.pop();
-// i++;
+    if (str === contestArr[0])
+    {
+        contestArr.shift();
+        i--;
+
+        var s = contestArr.reverse().join('');      //為了innerText
+        contestArr.reverse(); 
+        contest.innerText = s;
+    }
+
+    getRandomChar();
+}
