@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="./hw3.css" rel="stylesheet" type="text/css" media="all"/>
+    <title>hw3 打字機2.0</title>
 </head>
-<body>
-    <h1>hw3 打字機2.0</h1>
-    <div>打字機比賽：
+<body style = "margin: 0px; background-color: #faf0e6;">
+    <div class = "head">hw3 打字機2.0</div>
+
+    <div class = "bigtitle">≡ 比賽規則 ≡
+        <div class = "littletitle">➤ 只有A~Z為有效字元</div>
+        <div class = "littletitle">&emsp;➤ 按空白鍵後即開始計時</div>
+        <div class = "littletitle">&emsp;&emsp;➤ 產生字數超過50個即結束</div>
+    </div>
+
+    <hr/>
+    <div class = "title">打字機比賽：
         <span id = "random"></span>
     </div>
 
-    <div>使用者輸入：
+    <div class = "title">使用者輸入：
         <span id = "input"></span>
     </div>
+        
+    <hr/>
+    <div class = "result">產生字數：
+        <span id = "word"></span>
+    </div>
+    <div class = "result">答對字數：
+        <span id = "correct"></span>
+    </div>
+    <div class = "result">存活時間：
+        <span id = "time"></span>
+    </div>
+
     <script src = "./hw3.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+.head{
+    background-color: #ffe4c4; 
+    color: #683410; 
+    padding: 30px; 
+    font-weight: bolder; 
+    font-size: 50px; 
+    text-align: center;
+}
+.title{
+    font-weight: bolder; 
+    color: #5e2f0d; 
+    font-size: 25px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.result{
+    font-weight: bolder; 
+    color: #5e2f0d; 
+    font-size: 20px;
+    padding-left: 660px;
+    padding-top: 10px;
+}
+.bigtitle{
+    font-weight: bolder; 
+    color: #5e2f0d; 
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.littletitle{
+    /* font-weight: bolder;  */
+    color: #5e2f0d; 
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
