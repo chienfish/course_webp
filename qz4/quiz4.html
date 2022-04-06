@@ -1,0 +1,32 @@
+<html> 
+    <head>
+        <title>My Document</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+            function change() 
+            {
+                $(document).ready(function()
+                {
+                    $("h1").text("CSIE@CGU");
+                });
+                $(document).ready(function()
+                {
+                    $("p").text("怎麼那麼棒!!.");
+                });
+
+                // var header = document.getElementsByTagName("H1").item(0); 
+                // header.innerHTML = "CSIE@CGU";
+                // var para = document.getElementsByTagName("P").item(0);
+                // para.innerHTML = "怎麼那麼棒!!.";
+            }
+        </script> 
+    </head> 
+
+    <body>
+    <input type="button" value="Change this document." onclick="change()"> 
+    <h1>CGU</h1>
+    <p>好棒棒</p>
+    </body> 
+
+</html>
