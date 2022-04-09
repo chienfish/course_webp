@@ -1,0 +1,37 @@
+.head{
+    background-color: #ffe4c4; 
+    color: #683410; 
+    padding: 20px; 
+    font-weight: bolder; 
+    font-size: 45px; 
+    text-align: center;
+}
+.title{
+    font-weight: bolder; 
+    color: #5e2f0d; 
+    font-size: 25px;
+    padding: 10px;
+    background-color: white;
+    width: 850px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.bigtitle{
+    font-weight: bolder; 
+    color: #5e2f0d; 
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+}
+.littletitle{
+    color: #5e2f0d; 
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.input{
+    width: 500px; 
+    padding: 10px; 
+    font-size: 20px;
+    height: 10px;
+}
