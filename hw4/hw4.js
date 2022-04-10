@@ -107,13 +107,35 @@ function cmpNdel(str){
     }
 }
 
+var press = true;
+var time1 = 0;
+var time2 = 0;
+var totalTime = 0;
 $(document).ready(function(){
     $(document).keydown(function(){
         var e = window.event;
         var str = String.fromCharCode(e.keyCode);
         $("#input").append(str);
         if (e.keyCode == 32) randomImg();
-        
-        cmpNdel(str);
+        cmpNdel(str); 
+
+        if (press == true){
+            time1 = new Date().getTime();
+            press = !press;
+        } else{
+            time2 = new Date().getTime();
+            press = !press;
+        }
+
+        var spendTime = Math.abs(time2 - time1);
+        if (time1 == 0 || time2 == 0)
+            spendTime = 0;
+        totalTime += spendTime;
+
+        while (totalTime >= 3000){     //1秒2.5個字 => 0.67秒1個字
+            randomImg();
+            totalTime -= 3000;
+
+        }
     });
 });
