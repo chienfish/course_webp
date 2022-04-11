@@ -132,25 +132,26 @@ $(document).ready(function(){
             spendTime = 0;
         totalTime += spendTime;
 
-        while (totalTime >= 670){     //1秒1.5個字 => 0.67秒1個字
-            randomImg();
-            totalTime -= 670;
-
-            if (((id1 >= 16 || id2 >= 16)||(id3 >= 16 || id4 >= 16))||(id5 >= 16 || id6 >= 16)){
-                alert("!! Game Over !!");
-                break; 
-            }
-        }
+        setInterval(function(){
+            move();
+            while (totalTime >= 670){     //1秒1.5個字 => 0.67秒1個字
+                randomImg();
+                totalTime -= 670;
+                if (((id1 >= 12 || id2 >= 12)||(id3 >= 12 || id4 >= 12))||(id5 >= 12 || id6 >= 12)){
+                    alert("!! Game Over !!");
+                    window.location.reload();
+                    break;
+                }
+            }  
+        });
     });
 });
 
-$(document).ready(function(){
-    window.setInterval(function(){
-        $("#create1").animate({left: "+=10px"});
-        $("#create2").animate({left: "+=10px"});
-        $("#create3").animate({left: "+=10px"});
-        $("#create4").animate({left: "+=10px"});
-        $("#create5").animate({left: "+=10px"});
-        $("#create6").animate({left: "+=10px"});
-    });
-});
+function move(){
+    $("#create1").animate({left: "+=10px"});
+    $("#create2").animate({left: "+=10px"});
+    $("#create3").animate({left: "+=10px"});
+    $("#create4").animate({left: "+=10px"});
+    $("#create5").animate({left: "+=10px"});
+    $("#create6").animate({left: "+=10px"});
+}
