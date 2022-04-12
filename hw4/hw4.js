@@ -92,6 +92,7 @@ var press = true;
 var time1 = 0;
 var time2 = 0;
 var totalTime = 0;
+
 $(document).ready(function(){
     $(document).keydown(function(){
         var e = window.event;
@@ -99,12 +100,7 @@ $(document).ready(function(){
         $("#input").append(str);
         if (e.keyCode == 32) randomImg();
         cmpNdel(str); 
-
-        setInterval(function(){
-            move();
-            addSpace();
-        }, 2000);
-
+        
         if (press == true){
             time1 = new Date().getTime();
             press = !press;
@@ -121,14 +117,37 @@ $(document).ready(function(){
         while (totalTime >= 670){     //1秒1.5個字 => 0.67秒1個字
             randomImg();
             totalTime -= 670;
-            // if (){
-            //     alert("!! Game Over !!");
-            //     window.location.reload();
-            //     break;
-            // }
-        }  
-        
+            var rect1 = list1.lastChild.getBoundingClientRect();
+            var rect2 = list2.lastChild.getBoundingClientRect();
+            var rect3 = list3.lastChild.getBoundingClientRect();
+            var rect4 = list4.lastChild.getBoundingClientRect();
+            var rect5 = list5.lastChild.getBoundingClientRect();
+            var rect6 = list6.lastChild.getBoundingClientRect();
+            if (((rect1.right >= 1265 || rect2.right >= 1265) || (rect3.right >= 1265 
+                || rect4.right >= 1265)) || (rect5.right >= 1265 || rect6.right >= 1265)){
+                alert("!! Game Over !!");
+                window.location.reload();
+            }
+        }   
     });
+});
+
+$(document).ready(function(){
+    setInterval(function(){
+        move();
+        addSpace();
+        var rect1 = list1.lastChild.getBoundingClientRect();
+        var rect2 = list2.lastChild.getBoundingClientRect();
+        var rect3 = list3.lastChild.getBoundingClientRect();
+        var rect4 = list4.lastChild.getBoundingClientRect();
+        var rect5 = list5.lastChild.getBoundingClientRect();
+        var rect6 = list6.lastChild.getBoundingClientRect();
+        if (((rect1.right >= 1265 || rect2.right >= 1265) || (rect3.right >= 1265 
+            || rect4.right >= 1265)) || (rect5.right >= 1265 || rect6.right >= 1265)){
+            alert("!! Game Over !!");
+            window.location.reload();
+        }
+    }, 3000);
 });
 
 function addSpace(){
