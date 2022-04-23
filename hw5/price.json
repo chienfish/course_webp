@@ -1,0 +1,2102 @@
+[
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A2",
+      "DestinationStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 16
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 16
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 10
+        }
+      ],
+      "TravelTime": 5,
+      "TravelDistance": 4.236,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A3",
+      "DestinationStationName": {
+        "Zh_tw": "新北產業園區站",
+        "En": "New Taipei Industrial Park Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 13
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 13
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 13
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 13
+        }
+      ],
+      "TravelTime": 10,
+      "TravelDistance": 7.729,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A4",
+      "DestinationStationName": {
+        "Zh_tw": "新莊副都心站",
+        "En": "Xinzhuang Fuduxin Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 13
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 13
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 13
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 13
+        }
+      ],
+      "TravelTime": 13,
+      "TravelDistance": 9.098,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A5",
+      "DestinationStationName": {
+        "Zh_tw": "泰山站",
+        "En": "Taishan Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 13
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 13
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 13
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 13
+        }
+      ],
+      "TravelTime": 14,
+      "TravelDistance": 10.029,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A6",
+      "DestinationStationName": {
+        "Zh_tw": "泰山貴和站",
+        "En": "Taishan Guihe Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 40
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 40
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 32
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 40
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 40
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 20
+        }
+      ],
+      "TravelTime": 17,
+      "TravelDistance": 12.833,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A7",
+      "DestinationStationName": {
+        "Zh_tw": "體育大學站",
+        "En": "National Taiwan Sport University Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 60
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 60
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 48
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 30
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 30
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 48
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 60
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 60
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 30
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 30
+        }
+      ],
+      "TravelTime": 23,
+      "TravelDistance": 17.403,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A8",
+      "DestinationStationName": {
+        "Zh_tw": "長庚醫院站",
+        "En": "Chang Gung Memorial Hospital Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 70
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 70
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 56
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 35
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 35
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 56
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 70
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 70
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 35
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 35
+        }
+      ],
+      "TravelTime": 29,
+      "TravelDistance": 20.145,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A9",
+      "DestinationStationName": {
+        "Zh_tw": "林口站",
+        "En": "Linkou Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 70
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 70
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 56
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 35
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 35
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 56
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 70
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 70
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 35
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 35
+        }
+      ],
+      "TravelTime": 32,
+      "TravelDistance": 21.35,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A10",
+      "DestinationStationName": {
+        "Zh_tw": "山鼻站",
+        "En": "Shanbi Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 110
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 110
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 88
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 55
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 55
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 88
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 110
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 110
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 55
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 55
+        }
+      ],
+      "TravelTime": 42,
+      "TravelDistance": 29.745,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A11",
+      "DestinationStationName": {
+        "Zh_tw": "坑口站",
+        "En": "Kengkou Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 96
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 60
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 59
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 96
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 60
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 60
+        }
+      ],
+      "TravelTime": 44,
+      "TravelDistance": 31.721,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A12",
+      "DestinationStationName": {
+        "Zh_tw": "機場第一航廈站",
+        "En": "Airport Terminal 1 Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 48,
+      "TravelDistance": 34.876,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A13",
+      "DestinationStationName": {
+        "Zh_tw": "機場第二航廈站",
+        "En": "Airport Terminal 2 Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 51,
+      "TravelDistance": 35.896,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A14a",
+      "DestinationStationName": {
+        "Zh_tw": "機場旅館站",
+        "En": "Airport Hotel Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 54,
+      "TravelDistance": 37.232,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A15",
+      "DestinationStationName": {
+        "Zh_tw": "大園站",
+        "En": "Dayuan Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 57,
+      "TravelDistance": 39.13,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A16",
+      "DestinationStationName": {
+        "Zh_tw": "橫山站",
+        "En": "Hengshan Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 60,
+      "TravelDistance": 41.38,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A17",
+      "DestinationStationName": {
+        "Zh_tw": "領航站",
+        "En": "Linghang Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 63,
+      "TravelDistance": 42.96,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A18",
+      "DestinationStationName": {
+        "Zh_tw": "高鐵桃園站",
+        "En": "Taoyuan HSR Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 67,
+      "TravelDistance": 44.57,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A19",
+      "DestinationStationName": {
+        "Zh_tw": "桃園體育園區站",
+        "En": "Taoyuan Sports Park Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 70,
+      "TravelDistance": 46.31,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A20",
+      "DestinationStationName": {
+        "Zh_tw": "興南站",
+        "En": "Xingnan Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 75,
+      "TravelDistance": 49.27,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A1",
+      "OriginStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "DestinationStationID": "A21",
+      "DestinationStationName": {
+        "Zh_tw": "環北站",
+        "En": "Huanbei Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 120
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 75
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 120
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 150
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 75
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 75
+        }
+      ],
+      "TravelTime": 79,
+      "TravelDistance": 50.81,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A1",
+      "DestinationStationName": {
+        "Zh_tw": "台北車站",
+        "En": "Taipei Main Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 16
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 16
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 10
+        }
+      ],
+      "TravelTime": 5,
+      "TravelDistance": 4.236,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A3",
+      "DestinationStationName": {
+        "Zh_tw": "新北產業園區站",
+        "En": "New Taipei Industrial Park Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 16
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 16
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 10
+        }
+      ],
+      "TravelTime": 5,
+      "TravelDistance": 3.493,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A4",
+      "DestinationStationName": {
+        "Zh_tw": "新莊副都心站",
+        "En": "Xinzhuang Fuduxin Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 16
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 16
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 10
+        }
+      ],
+      "TravelTime": 8,
+      "TravelDistance": 4.862,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A5",
+      "DestinationStationName": {
+        "Zh_tw": "泰山站",
+        "En": "Taishan Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 16
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 10
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 16
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 20
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 10
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 10
+        }
+      ],
+      "TravelTime": 9,
+      "TravelDistance": 5.793,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A6",
+      "DestinationStationName": {
+        "Zh_tw": "泰山貴和站",
+        "En": "Taishan Guihe Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 30
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 30
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 24
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 15
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 15
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 24
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 30
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 30
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 15
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 15
+        }
+      ],
+      "TravelTime": 12,
+      "TravelDistance": 8.597,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A7",
+      "DestinationStationName": {
+        "Zh_tw": "體育大學站",
+        "En": "National Taiwan Sport University Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 45
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 45
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 36
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 23
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 23
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 36
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 45
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 45
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 23
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 23
+        }
+      ],
+      "TravelTime": 18,
+      "TravelDistance": 13.167,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A8",
+      "DestinationStationName": {
+        "Zh_tw": "長庚醫院站",
+        "En": "Chang Gung Memorial Hospital Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 50
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 50
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 40
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 40
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 50
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 50
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 25
+        }
+      ],
+      "TravelTime": 24,
+      "TravelDistance": 15.909,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A9",
+      "DestinationStationName": {
+        "Zh_tw": "林口站",
+        "En": "Linkou Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 50
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 50
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 40
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 25
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 40
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 50
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 50
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 25
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 25
+        }
+      ],
+      "TravelTime": 27,
+      "TravelDistance": 17.114,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A10",
+      "DestinationStationName": {
+        "Zh_tw": "山鼻站",
+        "En": "Shanbi Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 90
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 90
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 72
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 45
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 45
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 72
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 90
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 90
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 45
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 45
+        }
+      ],
+      "TravelTime": 37,
+      "TravelDistance": 25.509,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    },
+    {
+      "OriginStationID": "A2",
+      "OriginStationName": {
+        "Zh_tw": "三重站",
+        "En": "Sanchong Station"
+      },
+      "DestinationStationID": "A11",
+      "DestinationStationName": {
+        "Zh_tw": "坑口站",
+        "En": "Kengkou Station"
+      },
+      "TrainType": 0,
+      "Fares": [
+        {
+          "TicketType": 1,
+          "FareClass": 1,
+          "Price": 100
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 2,
+          "Price": 100
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 3,
+          "Price": 80
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 4,
+          "Price": 50
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 5,
+          "Price": 50
+        },
+        {
+          "TicketType": 1,
+          "FareClass": 8,
+          "Price": 80
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 1,
+          "Price": 100
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 2,
+          "Price": 100
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 4,
+          "Price": 50
+        },
+        {
+          "TicketType": 3,
+          "FareClass": 5,
+          "Price": 50
+        }
+      ],
+      "TravelTime": 39,
+      "TravelDistance": 27.485,
+      "SrcUpdateTime": "2018-10-01T00:10:00+08:00",
+      "UpdateTime": "2018-10-08T10:00:00+08:00",
+      "VersionID": 1
+    }
+  ]
