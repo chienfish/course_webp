@@ -1,5 +1,5 @@
 .head{
-    background-color: #5E00A3	; 
+    background-color: #4F008A	; 
     color: aliceblue; 
     padding: 15px; 
     font-weight: bolder; 
@@ -13,9 +13,11 @@
     text-align: center;
     padding: 10px;
     border:5px double #0000A3;
-    width: 150px;
-    margin-left: 625px;
+    width: 300px;
+    margin-left: 550px;
     margin-top: 10px;
+    box-shadow:3px 3px 5px 6px #000080;
+    border-radius: 20px;
 }
 #station{
     text-align: left;
@@ -24,12 +26,7 @@
     font-weight: bolder; 
     font-size: 30px; 
     padding-top: 10px;
-
 }
-.content{
-    width:300px; 
-    padding:10px; 
-    border:2px dashed green; 
-    margin-top:10px; 
-    margin-bottom:10px
+.background{
+    background-color: #F5E8FF;
 }
