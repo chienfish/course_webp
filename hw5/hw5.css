@@ -13,19 +13,26 @@
     text-align: center;
     padding: 10px;
     border:5px double #0000A3;
-    width: 300px;
+    width: 150px;
     margin-left: 550px;
     margin-top: 10px;
-    box-shadow:3px 3px 5px 6px #000080;
+    margin-bottom: 20px;
+    /* box-shadow:3px 3px 5px 6px #000080; */
     border-radius: 20px;
 }
-#station{
-    text-align: left;
-    margin-left: 620px; 
-    padding-top: 15px;
+#stationPrice{
+    position: relative;
+        left: 15%;
+        top: 50%;
     font-weight: bolder; 
-    font-size: 30px; 
-    padding-top: 10px;
+    font-size: 15px; 
+}
+#stationTime{
+    position: relative;
+        left: 40%;
+        top: 50%;
+    font-weight: bolder; 
+    font-size: 20px; 
 }
 .background{
     background-color: #F5E8FF;
