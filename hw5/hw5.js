@@ -1,6 +1,6 @@
-// var timeData = "https://ptx.transportdata.tw/MOTC/v2/Rail/Metro/S2STravelTime/TYMC?%24format=JSON";
-// var time = $.getJSON(timeData);
-var time = $.getJSON("./time.json");
+var timeData = "https://ptx.transportdata.tw/MOTC/v2/Rail/Metro/S2STravelTime/TYMC?%24format=JSON";
+var time = $.getJSON(timeData);
+// var time = $.getJSON("./time.json");
 var times = [], nth = [];
 var num = 0;
 var countDown = 20;
@@ -22,9 +22,9 @@ time.done(function(result){
     });
 });
 
-// var priceData = "https://ptx.transportdata.tw/MOTC/v2/Rail/Metro/ODFare/TYMC?%24format=JSON";
-// var price = $.getJSON(priceData);
-var price = $.getJSON("./price.json");
+var priceData = "https://ptx.transportdata.tw/MOTC/v2/Rail/Metro/ODFare/TYMC?%24format=JSON";
+var price = $.getJSON(priceData);
+// var price = $.getJSON("./price.json");
 var order = [];
 for (var i = 0; i < 22; i++)
 {
@@ -47,9 +47,9 @@ price.done(function(result){
 
 
 
-// var stationData = "https://ptx.transportdata.tw/MOTC/v2/Rail/Metro/Station/TYMC?%24top=30&%24format=JSON";
-// var station = $.getJSON(stationData);
-var station = $.getJSON("./station.json");
+var stationData = "https://ptx.transportdata.tw/MOTC/v2/Rail/Metro/Station/TYMC?%24top=30&%24format=JSON";
+var station = $.getJSON(stationData);
+// var station = $.getJSON("./station.json");
 var y = 0;
 station.done(function(result){
     $.each(result, function(i, index){
