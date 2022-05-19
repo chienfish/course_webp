@@ -21,24 +21,32 @@ function randomImg(){
     var index5 = Math.floor(Math.random()*jsImg.length);
     var index6 = Math.floor(Math.random()*jsImg.length);
 
+    var r = Math.floor(Math.random() * 6 + 1);
+    if (r == 1) {
     $("#create1").prepend("<img src='" +jsImg[index1]+"' width = 55>");
         imgArr1.push(splitPart(jsImg[index1]));
         i1++;
+    } else if (r == 2) {
     $("#create2").prepend("<img src='" +jsImg[index2]+"' width = 55>");
         imgArr2.push(splitPart(jsImg[index2]));
         i2++;
+    } else if (r == 3) {
     $("#create3").prepend("<img src='" +jsImg[index3]+"' width = 55>");
         imgArr3.push(splitPart(jsImg[index3]));
         i3++;
+    } else if (r == 4) {
     $("#create4").prepend("<img src='" +jsImg[index4]+"' width = 55>");
         imgArr4.push(splitPart(jsImg[index4]));
         i4++;
+    } else if (r == 5) {
     $("#create5").prepend("<img src='" +jsImg[index5]+"' width = 55>");
         imgArr5.push(splitPart(jsImg[index5]));
         i5++;
+    } else if (r == 6) {
     $("#create6").prepend("<img src='" +jsImg[index6]+"' width = 55>");
         imgArr6.push(splitPart(jsImg[index6]));
         i6++;
+    }
 }
 
 var list1 = document.getElementById("create1");
@@ -89,6 +97,7 @@ function cmpNdel(str){
 }
 
 var press = true;
+var preSpace = false;
 var time1 = 0;
 var time2 = 0;
 var totalTime = 0;
@@ -98,7 +107,7 @@ $(document).ready(function(){
         var e = window.event;
         var str = String.fromCharCode(e.keyCode);
         $("#input").append(str);
-        if (e.keyCode == 32) randomImg();
+        if (e.keyCode == 32) preSpace = true;
         cmpNdel(str); 
         
         if (press == true){
@@ -114,9 +123,19 @@ $(document).ready(function(){
             spendTime = 0;
         totalTime += spendTime;
             
-        while (totalTime >= 670){     //1秒1.5個字 => 0.67秒1個字
+        while (totalTime >= 670){    //1秒1.5個字 => 0.67秒1個字
             randomImg();
             totalTime -= 670;
+        }   
+    });
+});
+
+$(document).ready(function(){
+    setInterval(function(){
+        move();
+        addSpace();
+        if (preSpace == true) {
+            randomImg();
             var rect1 = list1.lastChild.getBoundingClientRect();
             var rect2 = list2.lastChild.getBoundingClientRect();
             var rect3 = list3.lastChild.getBoundingClientRect();
@@ -127,27 +146,10 @@ $(document).ready(function(){
                 || rect4.right >= 1265)) || (rect5.right >= 1265 || rect6.right >= 1265)){
                 alert("!! Game Over !!");
                 window.location.reload();
+                preSpace = false;
             }
-        }   
-    });
-});
-
-$(document).ready(function(){
-    setInterval(function(){
-        move();
-        addSpace();
-        var rect1 = list1.lastChild.getBoundingClientRect();
-        var rect2 = list2.lastChild.getBoundingClientRect();
-        var rect3 = list3.lastChild.getBoundingClientRect();
-        var rect4 = list4.lastChild.getBoundingClientRect();
-        var rect5 = list5.lastChild.getBoundingClientRect();
-        var rect6 = list6.lastChild.getBoundingClientRect();
-        if (((rect1.right >= 1265 || rect2.right >= 1265) || (rect3.right >= 1265 
-            || rect4.right >= 1265)) || (rect5.right >= 1265 || rect6.right >= 1265)){
-            alert("!! Game Over !!");
-            window.location.reload();
         }
-    }, 3000);
+    }, 1500);
 });
 
 function addSpace(){
