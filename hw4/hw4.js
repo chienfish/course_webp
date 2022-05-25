@@ -107,26 +107,30 @@ $(document).ready(function(){
         var e = window.event;
         var str = String.fromCharCode(e.keyCode);
         $("#input").append(str);
-        if (e.keyCode == 32) preSpace = true;
+        if (e.keyCode == 32) 
+        {
+            randomImg();
+            preSpace = true;
+        }
         cmpNdel(str); 
         
-        if (press == true){
-            time1 = new Date().getTime();
-            press = !press;
-        } else{
-            time2 = new Date().getTime();
-            press = !press;
-        }
+        // if (press == true){
+        //     time1 = new Date().getTime();
+        //     press = !press;
+        // } else{
+        //     time2 = new Date().getTime();
+        //     press = !press;
+        // }
 
-        var spendTime = Math.abs(time2 - time1);
-        if (time1 == 0 || time2 == 0)
-            spendTime = 0;
-        totalTime += spendTime;
+        // var spendTime = Math.abs(time2 - time1);
+        // if (time1 == 0 || time2 == 0)
+        //     spendTime = 0;
+        // totalTime += spendTime;
             
-        while (totalTime >= 670){    //1秒1.5個字 => 0.67秒1個字
-            randomImg();
-            totalTime -= 670;
-        }   
+        // while (totalTime >= 670){    //1秒1.5個字 => 0.67秒1個字
+        //     randomImg();
+        //     totalTime -= 670;
+        // }   
     });
 });
 
