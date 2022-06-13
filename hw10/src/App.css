@@ -1,0 +1,16 @@
+button {
+  width: 250px;
+  height: 30px;
+  border-radius:10px;
+  font-size: 15px;
+  background-color: #E3E3E3;
+  font-weight: bold;
+}
+.all {
+  margin-left: 35%;
+  border:solid 1px; 
+  width: 350px;
+  height: 500px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
