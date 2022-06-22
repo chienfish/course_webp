@@ -1,0 +1,35 @@
+* {
+  margin:0;
+}
+
+
+.App { 
+  background-color: #fafafa;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  /* padding-left: 30%; */
+}
+
+/* header的背景顏色 */
+.app_header {
+  width: 150px;
+  /* background-color: white; */
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app_posts {
+  padding-top: 20px;
+}
+
+.app_headerImage {
+  object-fit: contain;
+}
+
+.app_signup {
+    display: flex;
+    flex-direction: column;
+}
